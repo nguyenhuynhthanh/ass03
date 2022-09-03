@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+    .nav-bar-text {
+        display: none;
+    }
+
+    #nav-bar {
+        height: auto;
+        display: block;
+    }
+
+    #nav-bar a:link,
+    a:visited {
+        display: block;
+        padding: 10px;
+        border-left: none;
+        text-align: left;
+    }
+
+    #person-info {
+        padding-right: 25px;
+    }
+
+    /* 7. CERTIFICATE */
+    .certificate-item-1, 
+    .certificate-item-2, 
+    .certificate-item-3 {
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 2px solid orange;
+        padding-top: 20px;
+        text-align: justify;
+    }
+    .certificate-item-4 {
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 0;
+    }
+    .certificate-item-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .certificate-image img {
+        width: 100%;
+        
+        padding: 0 20px;
+    }
+    .certifiate-description h4 {
+        font-size: 16px;
+    }
+
+    /* 8. PROJECT */
+    .project-item-image {
+        width: 100%;
+    }
+    .project-item-flex {
+        padding: 40px 0;
+    }
+    tr td:first-child {
+        width: 25%;
+        font-weight: normal;
+    }
+    td {
+        vertical-align: top;
+    }
+    /* 9. FOOTER */
+    #footer a:link, a:visited {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    /* PROJECT CHARTER */
+    .goal-logo {
+        display: none;
+    }
+
+    .goal-content {
+        padding: 40px !important;
+    }
+
+    .border-cover {
+        border: none;
+    }
+
+    .team-logo {
+        display: none;
+    }
+}

@@ -1,0 +1,48 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-bar-text {
+        display: none;
+    }
+    #nav-bar a:link,
+    a:visited {
+        padding: 10px;
+        margin-right: 1rem;
+        padding-bottom: 30px;
+    }
+
+    .certificate-item-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .certificate-image img {
+        width: 100%;
+    }
+    .certificate-description h4 {
+        font-size: 16px;
+    }
+
+    /* 8. PROJECT */
+    .project-item-image {
+        width: 100%;
+    }
+    .project-title {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px;
+        border: 1px solid #666;
+    }
+    .project-info {
+        font-size: 16px;
+    }
+    tr td:first-child {
+        width: 25%;
+        font-weight: normal;
+    }
+    td {
+        vertical-align: top;
+    }
+
+    /* PROJECT CHARTER */
+    .border-cover {
+        border: none;
+    }
+}
